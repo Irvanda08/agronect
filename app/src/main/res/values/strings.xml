@@ -7,5 +7,8 @@
     <string name="login">Masuk</string>
     <string name="login_ask">Belum Mempunyai Akun?</string>
     <string name="Daftar">Daftar di sini</string>
+    <string name="password">Password</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="username">Username</string>
 
 </resources>
