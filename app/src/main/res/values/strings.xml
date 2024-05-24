@@ -20,5 +20,6 @@
     <string name="gallery">gallery</string>
     <string name="camera">camera</string>
     <string name="fullname">Nama Lengkap\n</string>
+    <string name="profil">Profil</string>
 
 </resources>

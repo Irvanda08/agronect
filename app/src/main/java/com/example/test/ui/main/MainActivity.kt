@@ -1,5 +1,6 @@
 package com.example.test.ui.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -12,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.test.R
 import com.example.test.databinding.ActivityMainBinding
 import com.example.test.ui.ViewModelFactory
+import com.example.test.ui.profile.ProfileActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnProfile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
 
         // Set the Toolbar as the app bar for the activity
         //setSupportActionBar(binding.toolbar)
@@ -50,14 +56,14 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.action_logout -> {
-                viewModel.logout()
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        when (item.itemId) {
+//            R.id.action_logout -> {
+//                viewModel.logout()
+//            }
+//        }
+//        return super.onOptionsItemSelected(item)
+//    }
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
