@@ -6,9 +6,14 @@
     <string name="title_notifications">Notifications</string>
     <string name="login">Masuk</string>
     <string name="login_ask">Belum Mempunyai Akun?</string>
+    <string name="signup_ask">Sudah Memiliki Akun?</string>
     <string name="Daftar">Daftar di sini</string>
+    <string name="login_disini">Masuk di sini</string>
     <string name="password">Password</string>
     <string name="masukkan_password">Masukkan Password</string>
     <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="next">Lanjut\n</string>
+    <string name="logout">logout\n</string>
 
 </resources>
