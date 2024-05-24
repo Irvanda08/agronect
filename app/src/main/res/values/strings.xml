@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">test</string>
+    <string name="app_name">Agronect</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -15,5 +15,10 @@
     <string name="email">Email</string>
     <string name="next">Lanjut\n</string>
     <string name="logout">logout\n</string>
+    <string name="upload">Unggah\n</string>
+    <string name="description">deskripsi\n</string>
+    <string name="gallery">gallery</string>
+    <string name="camera">camera</string>
+    <string name="fullname">Nama Lengkap\n</string>
 
 </resources>

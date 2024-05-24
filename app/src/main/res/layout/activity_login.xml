@@ -42,9 +42,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-black"
                 android:padding="16dp"
                 android:layout_marginTop="24dp"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/login"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -54,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/username"
                 android:layout_marginStart="16dp"
+                android:fontFamily="@font/poppins_medium"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="16dp"/>
             
@@ -78,6 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/password"
+                android:fontFamily="@font/poppins_medium"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"/>
@@ -109,6 +111,7 @@
                 android:layout_marginEnd="32dp"
                 android:backgroundTint="@color/blackbrown"
                 android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/login"
                 android:textSize="15sp"
                 app:cornerRadius="10dp"
@@ -123,6 +126,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/login_ask"
                 android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="70dp"
                 android:gravity="center"
@@ -134,12 +138,11 @@
                 android:layout_height="wrap_content"
                 android:text="@string/Daftar"
                 android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
                 android:textColor="@color/semiblckbrown"
                 android:layout_marginStart="20dp"
                 android:gravity="center"
                 android:layout_marginEnd="16dp"/>
-
-
 
         </LinearLayout>
 
