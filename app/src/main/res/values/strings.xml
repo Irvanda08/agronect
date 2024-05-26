@@ -21,5 +21,9 @@
     <string name="camera">camera</string>
     <string name="fullname">Nama Lengkap\n</string>
     <string name="profil">Profil</string>
+    <string name="simpan">Simpan</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="welcome_text"> Kami membantu Anda mendeteksi dan mencegah penyakit tanaman dengan cepat dan akurat. Mari ciptakan lingkungan hijau yang subur bersama!</string>
+    <string name="success_login">Anda Berhasil Masuk</string>
 
 </resources>
